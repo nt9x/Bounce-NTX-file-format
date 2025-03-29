@@ -1,4 +1,4 @@
-# Bounce-NTX-file-format
+# Bounce NTX file format
 The texture format used in all 3D Bounce games by Rovio - except Bounce Evolution. 
 
 # Specification
