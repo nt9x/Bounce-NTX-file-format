@@ -4,7 +4,7 @@ The texture format used in all 3D Bounce games by Rovio - except Bounce Evolutio
 # Specification
 The entire format is little endian, with almost all values being unsigned 2-byte integers.
 An NTX image supports 2 color types - ARGB4444, which is only used for GUI elements, and
-RGB565, which is used for all game textures. If specified, an RGB565 image may remove all
+RGB565, which is only used for model textures. If specified, an RGB565 image may remove all
 occurences of the color 0x0000, to simulate transparency. This mechanic is used primarily
 in 2.5D models, such as decorations and hypnotized eyes of the mole and duck (Bounce Touch
 and Bounce Boing Voyage, level 1).
